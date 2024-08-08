@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', serif;
+  font-weight: 500;
+}
+/* NAVBAR STYLING*/
+.logo img {
+  width: 100%;
+  height: 100px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+}
+
+nav > a {
+  text-decoration: none;
+  padding: 0px 20px;
+  margin: 0px 10px;
+  color: black;
+}
+
+.group1 {
+  font-size: 1.1rem;
+}
+
+#bg_home {
+  background-color: #ddd;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.nav_utilities {
+  display: flex;
+  align-items: center;
+}
+
+.cart {
+  padding: 10px 10px;
+}
+
+#btn {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* NAVBAR STYLING ENDS*/
+
